@@ -1,0 +1,126 @@
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\quinn\onedrive - fog\csgo\csgo_collab_map\test_bombsite_01.vmf
+Map revision 9
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\quinn\onedrive - fog\csgo\csgo_collab_map\test_bombsite_01.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (54211 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 174 texinfos to 129
+Reduced 5 texdatas to 4 (163 bytes to 99)
+Writing c:\users\quinn\onedrive - fog\csgo\csgo_collab_map\test_bombsite_01.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\quinn\onedrive - fog\csgo\csgo_collab_map\test_bombsite_01.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\quinn\onedrive - fog\csgo\csgo_collab_map\test_bombsite_01.bsp
+reading c:\users\quinn\onedrive - fog\csgo\csgo_collab_map\test_bombsite_01.prt
+ 411 portalclusters
+1241 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 1705 visible clusters (0.00%)
+Total clusters visible: 146152
+Average clusters visible: 355
+Building PAS...
+Average clusters audible: 410
+visdatasize:45568  compressed from 46032
+writing c:\users\quinn\onedrive - fog\csgo\csgo_collab_map\test_bombsite_01.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\quinn\onedrive - fog\csgo\csgo_collab_map\test_bombsite_01.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[40 texlights parsed from 'lights.rad']
+
+Loading c:\users\quinn\onedrive - fog\csgo\csgo_collab_map\test_bombsite_01.bsp
+1213 faces
+2946801 square feet [424339392.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1213 patches before subdivision
+22017 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1293374, max 383
+transfer lists:   9.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(180412, 188709, 221345)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(35318, 36791, 43184)
+Build Patch/Sample Hash Table(s).....Done<0.0031 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                152/8192         1824/98304    ( 1.9%) 
+brushsides            1085/81920        8680/655360   ( 1.3%) 
+planes                 444/65536        8880/1310720  ( 0.7%) 
+vertexes              1617/65536       19404/786432   ( 2.5%) 
+nodes                  766/65536       24512/2097152  ( 1.2%) 
+texinfos               129/12288        9288/884736   ( 1.0%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1213/65536       67928/3670016  ( 1.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              548/65536       30688/3670016  ( 0.8%) 
+facebrushes            107/0             214/0        ( 0.0%) 
+facebrushlists        1213/0            4852/0        ( 0.0%) 
+leaves                 768/65536       24576/2097152  ( 1.2%) 
+leaffaces             1374/65536        2748/131072   ( 2.1%) 
+leafbrushes            434/65536         868/131072   ( 0.7%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             7802/512000      31208/2048000  ( 1.5%) 
+edges                 4435/256000      17740/1024000  ( 1.7%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             86/32768         860/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1353/65536        2706/131072   ( 2.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      976892/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       45568/16777216 ( 0.3%) 
+entdata               [variable]        2474/393216   ( 0.6%) 
+LDR ambient table      768/65536        3072/262144   ( 1.2%) 
+HDR ambient table      768/65536        3072/262144   ( 1.2%) 
+LDR leaf ambient      4325/65536      121100/1835008  ( 6.6%) 
+HDR leaf ambient       768/65536       21504/1835008  ( 1.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      149213/0        ( 0.0%) 
+physics               [variable]       54211/4194304  ( 1.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 3184
+Writing c:\users\quinn\onedrive - fog\csgo\csgo_collab_map\test_bombsite_01.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\quinn\onedrive - fog\csgo\csgo_collab_map\test_bombsite_01.bsp', but we don't own that location. Allowing...
+3 seconds elapsed
