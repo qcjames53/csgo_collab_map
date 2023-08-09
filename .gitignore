@@ -1,0 +1,4 @@
+# ignore ALL .intermediate files
+*.log
+*.prt
+*.vmx
